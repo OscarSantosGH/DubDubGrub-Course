@@ -31,6 +31,7 @@ struct LocationDetailView: View {
             
             Text("This is a test description of the spot. This is a test description of the spot. This is a test description of the spot.")
                 .lineLimit(3)
+                .frame(height: 70)
                 .minimumScaleFactor(0.75)
                 .padding(.horizontal)
             
@@ -69,16 +70,18 @@ struct LocationDetailView: View {
                 .bold()
                 .font(.title2)
             
-            LazyVGrid(columns: columns, content: {
-                FirstNameAvatarView(firstName: "Sean")
-                FirstNameAvatarView(firstName: "Oscar")
-                FirstNameAvatarView(firstName: "Paul")
-                FirstNameAvatarView(firstName: "Carlos")
-                FirstNameAvatarView(firstName: "Diomedes")
-                FirstNameAvatarView(firstName: "Marko")
-                FirstNameAvatarView(firstName: "Mia")
-                FirstNameAvatarView(firstName: "Aurora")
-            })
+            ScrollView {
+                LazyVGrid(columns: columns, content: {
+                    FirstNameAvatarView(firstName: "Sean")
+                    FirstNameAvatarView(firstName: "Oscar")
+                    FirstNameAvatarView(firstName: "Paul")
+                    FirstNameAvatarView(firstName: "Carlos")
+                    FirstNameAvatarView(firstName: "Diomedes")
+                    FirstNameAvatarView(firstName: "Marko")
+                    FirstNameAvatarView(firstName: "Mia")
+                    FirstNameAvatarView(firstName: "Aurora")
+                })
+            }
             
             Spacer()
         }
