@@ -77,22 +77,13 @@
 		83887D4A26D1C4E000ADB2A2 /* DubDubGrub */ = {
 			isa = PBXGroup;
 			children = (
+				839A9AFD26D6D75E00BCB411 /* Extensions */,
+				839A9AFE26D6D78000BCB411 /* Views */,
 				83887D5A26D1C66F00ADB2A2 /* DubDubGrub.entitlements */,
 				83887D4B26D1C4E000ADB2A2 /* DubDubGrubApp.swift */,
-				83887D5E26D1C8D600ADB2A2 /* Color+Ext.swift */,
-				839A9AF926D6C68C00BCB411 /* View+Ext.swift */,
-				83887D6026D1C92800ADB2A2 /* AppTabView.swift */,
 				83887D4F26D1C4E300ADB2A2 /* Assets.xcassets */,
 				83887D5426D1C4E300ADB2A2 /* Info.plist */,
 				83887D5126D1C4E300ADB2A2 /* Preview Content */,
-				83887D6226D1C97300ADB2A2 /* LocationMapView.swift */,
-				83887D6426D1C99700ADB2A2 /* LocationListView.swift */,
-				83887D6626D1C9BA00ADB2A2 /* ProfileView.swift */,
-				8399D38226D480D400FC1944 /* LocationDetailView.swift */,
-				839A9AF326D6C1EF00BCB411 /* LocationCell.swift */,
-				839A9AF526D6C22500BCB411 /* AvatarView.swift */,
-				839A9AF726D6C65700BCB411 /* CustomModifiers.swift */,
-				839A9AFB26D6C80200BCB411 /* DDGButton.swift */,
 			);
 			path = DubDubGrub;
 			sourceTree = "<group>";
@@ -111,6 +102,55 @@
 				83887D5C26D1C70500ADB2A2 /* CloudKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		839A9AFD26D6D75E00BCB411 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				83887D5E26D1C8D600ADB2A2 /* Color+Ext.swift */,
+				839A9AF926D6C68C00BCB411 /* View+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		839A9AFE26D6D78000BCB411 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				839A9AF726D6C65700BCB411 /* CustomModifiers.swift */,
+				839A9B0126D6D7C900BCB411 /* CustomViews */,
+				839A9B0026D6D7BF00BCB411 /* Cells */,
+				839A9AFF26D6D79200BCB411 /* Screens */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		839A9AFF26D6D79200BCB411 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				83887D6026D1C92800ADB2A2 /* AppTabView.swift */,
+				83887D6226D1C97300ADB2A2 /* LocationMapView.swift */,
+				83887D6426D1C99700ADB2A2 /* LocationListView.swift */,
+				83887D6626D1C9BA00ADB2A2 /* ProfileView.swift */,
+				8399D38226D480D400FC1944 /* LocationDetailView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		839A9B0026D6D7BF00BCB411 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				839A9AF326D6C1EF00BCB411 /* LocationCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		839A9B0126D6D7C900BCB411 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				839A9AF526D6C22500BCB411 /* AvatarView.swift */,
+				839A9AFB26D6C80200BCB411 /* DDGButton.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
