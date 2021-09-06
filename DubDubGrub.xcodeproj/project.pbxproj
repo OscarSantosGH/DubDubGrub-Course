@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8387BA2D26E69E04001BCBDD /* DDGLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8387BA2C26E69E04001BCBDD /* DDGLocation.swift */; };
 		83887D4C26D1C4E000ADB2A2 /* DubDubGrubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83887D4B26D1C4E000ADB2A2 /* DubDubGrubApp.swift */; };
 		83887D5026D1C4E300ADB2A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83887D4F26D1C4E300ADB2A2 /* Assets.xcassets */; };
 		83887D5326D1C4E300ADB2A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83887D5226D1C4E300ADB2A2 /* Preview Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8387BA2C26E69E04001BCBDD /* DDGLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGLocation.swift; sourceTree = "<group>"; };
 		83887D4826D1C4E000ADB2A2 /* DubDubGrub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DubDubGrub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83887D4B26D1C4E000ADB2A2 /* DubDubGrubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DubDubGrubApp.swift; sourceTree = "<group>"; };
 		83887D4F26D1C4E300ADB2A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,6 +59,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8387BA2B26E69DF3001BCBDD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8387BA2C26E69E04001BCBDD /* DDGLocation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		83887D3F26D1C4E000ADB2A2 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +87,7 @@
 		83887D4A26D1C4E000ADB2A2 /* DubDubGrub */ = {
 			isa = PBXGroup;
 			children = (
+				8387BA2B26E69DF3001BCBDD /* Model */,
 				839A9AFD26D6D75E00BCB411 /* Extensions */,
 				839A9AFE26D6D78000BCB411 /* Views */,
 				83887D5A26D1C66F00ADB2A2 /* DubDubGrub.entitlements */,
@@ -227,6 +238,7 @@
 				83887D6326D1C97300ADB2A2 /* LocationMapView.swift in Sources */,
 				83887D6526D1C99700ADB2A2 /* LocationListView.swift in Sources */,
 				8399D38326D480D400FC1944 /* LocationDetailView.swift in Sources */,
+				8387BA2D26E69E04001BCBDD /* DDGLocation.swift in Sources */,
 				83887D6126D1C92800ADB2A2 /* AppTabView.swift in Sources */,
 				83887D6726D1C9BA00ADB2A2 /* ProfileView.swift in Sources */,
 				839A9AFA26D6C68C00BCB411 /* View+Ext.swift in Sources */,
