@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8387BA2D26E69E04001BCBDD /* DDGLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8387BA2C26E69E04001BCBDD /* DDGLocation.swift */; };
 		8387BA2F26E6A308001BCBDD /* DDGProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8387BA2E26E6A308001BCBDD /* DDGProfile.swift */; };
+		8387BA3126E6A34B001BCBDD /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8387BA3026E6A34B001BCBDD /* MockData.swift */; };
 		83887D4C26D1C4E000ADB2A2 /* DubDubGrubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83887D4B26D1C4E000ADB2A2 /* DubDubGrubApp.swift */; };
 		83887D5026D1C4E300ADB2A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83887D4F26D1C4E300ADB2A2 /* Assets.xcassets */; };
 		83887D5326D1C4E300ADB2A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83887D5226D1C4E300ADB2A2 /* Preview Assets.xcassets */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		8387BA2C26E69E04001BCBDD /* DDGLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGLocation.swift; sourceTree = "<group>"; };
 		8387BA2E26E6A308001BCBDD /* DDGProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGProfile.swift; sourceTree = "<group>"; };
+		8387BA3026E6A34B001BCBDD /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		83887D4826D1C4E000ADB2A2 /* DubDubGrub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DubDubGrub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83887D4B26D1C4E000ADB2A2 /* DubDubGrubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DubDubGrubApp.swift; sourceTree = "<group>"; };
 		83887D4F26D1C4E300ADB2A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 			children = (
 				8387BA2C26E69E04001BCBDD /* DDGLocation.swift */,
 				8387BA2E26E6A308001BCBDD /* DDGProfile.swift */,
+				8387BA3026E6A34B001BCBDD /* MockData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 				839A9AF826D6C65700BCB411 /* CustomModifiers.swift in Sources */,
 				83887D6326D1C97300ADB2A2 /* LocationMapView.swift in Sources */,
 				83887D6526D1C99700ADB2A2 /* LocationListView.swift in Sources */,
+				8387BA3126E6A34B001BCBDD /* MockData.swift in Sources */,
 				8399D38326D480D400FC1944 /* LocationDetailView.swift in Sources */,
 				8387BA2F26E6A308001BCBDD /* DDGProfile.swift in Sources */,
 				8387BA2D26E69E04001BCBDD /* DDGLocation.swift in Sources */,
