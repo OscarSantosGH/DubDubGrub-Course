@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		831A7DA628F1E27D008311AD /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A7DA528F1E27D008311AD /* LogoView.swift */; };
+		831A7DA828F20830008311AD /* OnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A7DA728F20830008311AD /* OnboardView.swift */; };
 		8387BA2D26E69E04001BCBDD /* DDGLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8387BA2C26E69E04001BCBDD /* DDGLocation.swift */; };
 		8387BA2F26E6A308001BCBDD /* DDGProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8387BA2E26E6A308001BCBDD /* DDGProfile.swift */; };
 		8387BA3126E6A34B001BCBDD /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8387BA3026E6A34B001BCBDD /* MockData.swift */; };
@@ -33,6 +34,7 @@
 
 /* Begin PBXFileReference section */
 		831A7DA528F1E27D008311AD /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		831A7DA728F20830008311AD /* OnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardView.swift; sourceTree = "<group>"; };
 		8387BA2C26E69E04001BCBDD /* DDGLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGLocation.swift; sourceTree = "<group>"; };
 		8387BA2E26E6A308001BCBDD /* DDGProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGProfile.swift; sourceTree = "<group>"; };
 		8387BA3026E6A34B001BCBDD /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 				83887D6426D1C99700ADB2A2 /* LocationListView.swift */,
 				83887D6626D1C9BA00ADB2A2 /* ProfileView.swift */,
 				8399D38226D480D400FC1944 /* LocationDetailView.swift */,
+				831A7DA728F20830008311AD /* OnboardView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				8387BA3426E6AD61001BCBDD /* CloudKitManager.swift in Sources */,
 				839A9AFA26D6C68C00BCB411 /* View+Ext.swift in Sources */,
 				839A9AF426D6C1EF00BCB411 /* LocationCell.swift in Sources */,
+				831A7DA828F20830008311AD /* OnboardView.swift in Sources */,
 				839A9AFC26D6C80200BCB411 /* DDGButton.swift in Sources */,
 				839A9AF626D6C22500BCB411 /* AvatarView.swift in Sources */,
 				83887D5F26D1C8D600ADB2A2 /* Color+Ext.swift in Sources */,
