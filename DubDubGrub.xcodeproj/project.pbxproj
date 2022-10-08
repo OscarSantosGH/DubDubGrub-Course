@@ -10,6 +10,7 @@
 		831A7DA628F1E27D008311AD /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A7DA528F1E27D008311AD /* LogoView.swift */; };
 		831A7DA828F20830008311AD /* OnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A7DA728F20830008311AD /* OnboardView.swift */; };
 		831A7DAB28F20FE3008311AD /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A7DAA28F20FE3008311AD /* XDismissButton.swift */; };
+		831A7DAE28F22D1B008311AD /* LocationMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A7DAD28F22D1B008311AD /* LocationMapViewModel.swift */; };
 		8387BA2D26E69E04001BCBDD /* DDGLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8387BA2C26E69E04001BCBDD /* DDGLocation.swift */; };
 		8387BA2F26E6A308001BCBDD /* DDGProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8387BA2E26E6A308001BCBDD /* DDGProfile.swift */; };
 		8387BA3126E6A34B001BCBDD /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8387BA3026E6A34B001BCBDD /* MockData.swift */; };
@@ -37,6 +38,7 @@
 		831A7DA528F1E27D008311AD /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		831A7DA728F20830008311AD /* OnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardView.swift; sourceTree = "<group>"; };
 		831A7DAA28F20FE3008311AD /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
+		831A7DAD28F22D1B008311AD /* LocationMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapViewModel.swift; sourceTree = "<group>"; };
 		8387BA2C26E69E04001BCBDD /* DDGLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGLocation.swift; sourceTree = "<group>"; };
 		8387BA2E26E6A308001BCBDD /* DDGProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGProfile.swift; sourceTree = "<group>"; };
 		8387BA3026E6A34B001BCBDD /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
@@ -82,6 +84,15 @@
 				831A7DAA28F20FE3008311AD /* XDismissButton.swift */,
 			);
 			path = Buttons;
+			sourceTree = "<group>";
+		};
+		831A7DAC28F22D05008311AD /* LocationMapView */ = {
+			isa = PBXGroup;
+			children = (
+				83887D6226D1C97300ADB2A2 /* LocationMapView.swift */,
+				831A7DAD28F22D1B008311AD /* LocationMapViewModel.swift */,
+			);
+			path = LocationMapView;
 			sourceTree = "<group>";
 		};
 		8387BA2B26E69DF3001BCBDD /* Model */ = {
@@ -176,8 +187,8 @@
 		839A9AFF26D6D79200BCB411 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				831A7DAC28F22D05008311AD /* LocationMapView */,
 				83887D6026D1C92800ADB2A2 /* AppTabView.swift */,
-				83887D6226D1C97300ADB2A2 /* LocationMapView.swift */,
 				83887D6426D1C99700ADB2A2 /* LocationListView.swift */,
 				83887D6626D1C9BA00ADB2A2 /* ProfileView.swift */,
 				8399D38226D480D400FC1944 /* LocationDetailView.swift */,
@@ -273,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				831A7DAE28F22D1B008311AD /* LocationMapViewModel.swift in Sources */,
 				83887D4C26D1C4E000ADB2A2 /* DubDubGrubApp.swift in Sources */,
 				8387BA3626E6AE2B001BCBDD /* Constants.swift in Sources */,
 				839A9AF826D6C65700BCB411 /* CustomModifiers.swift in Sources */,
