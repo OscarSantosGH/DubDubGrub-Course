@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		831A7DA628F1E27D008311AD /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A7DA528F1E27D008311AD /* LogoView.swift */; };
 		831A7DA828F20830008311AD /* OnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A7DA728F20830008311AD /* OnboardView.swift */; };
+		831A7DAB28F20FE3008311AD /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A7DAA28F20FE3008311AD /* XDismissButton.swift */; };
 		8387BA2D26E69E04001BCBDD /* DDGLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8387BA2C26E69E04001BCBDD /* DDGLocation.swift */; };
 		8387BA2F26E6A308001BCBDD /* DDGProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8387BA2E26E6A308001BCBDD /* DDGProfile.swift */; };
 		8387BA3126E6A34B001BCBDD /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8387BA3026E6A34B001BCBDD /* MockData.swift */; };
@@ -35,6 +36,7 @@
 /* Begin PBXFileReference section */
 		831A7DA528F1E27D008311AD /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		831A7DA728F20830008311AD /* OnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardView.swift; sourceTree = "<group>"; };
+		831A7DAA28F20FE3008311AD /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 		8387BA2C26E69E04001BCBDD /* DDGLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGLocation.swift; sourceTree = "<group>"; };
 		8387BA2E26E6A308001BCBDD /* DDGProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGProfile.swift; sourceTree = "<group>"; };
 		8387BA3026E6A34B001BCBDD /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
@@ -73,6 +75,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		831A7DA928F20F77008311AD /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				839A9AFB26D6C80200BCB411 /* DDGButton.swift */,
+				831A7DAA28F20FE3008311AD /* XDismissButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
 		8387BA2B26E69DF3001BCBDD /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,8 +197,8 @@
 		839A9B0126D6D7C900BCB411 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				831A7DA928F20F77008311AD /* Buttons */,
 				839A9AF526D6C22500BCB411 /* AvatarView.swift */,
-				839A9AFB26D6C80200BCB411 /* DDGButton.swift */,
 				831A7DA528F1E27D008311AD /* LogoView.swift */,
 			);
 			path = CustomViews;
@@ -282,6 +293,7 @@
 				839A9AFC26D6C80200BCB411 /* DDGButton.swift in Sources */,
 				839A9AF626D6C22500BCB411 /* AvatarView.swift in Sources */,
 				83887D5F26D1C8D600ADB2A2 /* Color+Ext.swift in Sources */,
+				831A7DAB28F20FE3008311AD /* XDismissButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

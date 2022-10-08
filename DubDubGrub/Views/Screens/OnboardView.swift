@@ -15,15 +15,7 @@ struct OnboardView: View {
                 Button{
                     
                 } label: {
-                    ZStack{
-                        Circle()
-                            .frame(width: 30, height: 30)
-                            .foregroundColor(.brandPrimary)
-                        Image(systemName: "xmark")
-                            .foregroundColor(.white)
-                            .imageScale(.small)
-                            .frame(width: 44, height: 44)
-                    }
+                    XDismissButton()
                 }
             }
             LogoView(frameWidth: 250)
