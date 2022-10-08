@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		831A7DA628F1E27D008311AD /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A7DA528F1E27D008311AD /* LogoView.swift */; };
 		8387BA2D26E69E04001BCBDD /* DDGLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8387BA2C26E69E04001BCBDD /* DDGLocation.swift */; };
 		8387BA2F26E6A308001BCBDD /* DDGProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8387BA2E26E6A308001BCBDD /* DDGProfile.swift */; };
 		8387BA3126E6A34B001BCBDD /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8387BA3026E6A34B001BCBDD /* MockData.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		831A7DA528F1E27D008311AD /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		8387BA2C26E69E04001BCBDD /* DDGLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGLocation.swift; sourceTree = "<group>"; };
 		8387BA2E26E6A308001BCBDD /* DDGProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGProfile.swift; sourceTree = "<group>"; };
 		8387BA3026E6A34B001BCBDD /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 			children = (
 				839A9AF526D6C22500BCB411 /* AvatarView.swift */,
 				839A9AFB26D6C80200BCB411 /* DDGButton.swift */,
+				831A7DA528F1E27D008311AD /* LogoView.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				83887D6526D1C99700ADB2A2 /* LocationListView.swift in Sources */,
 				8387BA3126E6A34B001BCBDD /* MockData.swift in Sources */,
 				8399D38326D480D400FC1944 /* LocationDetailView.swift in Sources */,
+				831A7DA628F1E27D008311AD /* LogoView.swift in Sources */,
 				8387BA3826E6B672001BCBDD /* AlertItem.swift in Sources */,
 				8387BA2F26E6A308001BCBDD /* DDGProfile.swift in Sources */,
 				8387BA2D26E69E04001BCBDD /* DDGLocation.swift in Sources */,
