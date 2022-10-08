@@ -18,6 +18,9 @@ struct OnboardView: View {
                     XDismissButton()
                 }
             }
+            
+            Spacer()
+            
             LogoView(frameWidth: 250)
                 .padding(.bottom)
             
@@ -32,8 +35,10 @@ struct OnboardView: View {
                                    title: "Find Friends",
                                    description: "See where other iOS Devs are and join the party")
             }
+            .padding(.horizontal, 40)
+            
+            Spacer()
         }
-        .padding(.horizontal, 40)
     }
 }
 
